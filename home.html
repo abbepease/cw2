@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="CSS/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title></title>
+  </head>
+  <body>
+    <!-- logo and menu -->
+    <div class="container">
+    <div class="logo">
+    <a href="home.html"><img src="Image/amon-logo-site.png" alt="logo"></a>
+    </div>
+    <!--Menu-->
+    <div class="navbar">
+    <div class="icon-bar" onclick="Show()">
+    <i></i>
+    <i></i>
+    <i></i>
+    </div>
+    <ul id="nav-lists">
+    <li class="close"><span onclick="Hide()">×</span></li>
+    <li><a href="home.html">Home</a></li>
+    <li><a href="adopt.html">Adopt</a></li>
+    <li><a href="about.html">What We Do</a></li>
+    </ul>
+    </div>
+    </div>
+    <!--Script to make the menu work -->
+    <script>
+    var navList = document.getElementById("nav-lists");
+    function Show() {
+    navList.classList.add("_Menus-show");}
+    function Hide(){
+    navList.classList.remove("_Menus-show");}
+    </script>
+    <!--Social media Navagation Bar-->
+    <nav>
+    <a href="https://www.facebook.com/campaign/landing.php?&campaign_id=1547099255&extra_1=s%7Cc%7C293779097648%7Ce%7Cfacebook%7C&placement=&creative=293779097648&keyword=facebook&partner_id=googlesem&extra_2=campaignid%3D1547099255%26adgroupid%3D55741560381%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-541132862%26loc_physical_ms%3D1006867%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=EAIaIQobChMIhoeS7LzG7wIVeIBQBh2ScwUhEAAYASAAEgJy5PD_BwE " class="fa fa-facebook"></a>
+    <a href="https://twitter.com/WWF" class="fa fa-twitter"></a>
+    <a href="https://www.instagram.com/wwf/" class="fa fa-instagram"></a>
+    <a href="https://www.youtube.com/user/WWF" class="fa fa-youtube"></a>
+    </nav>
+
+
+    <div id="Title">
+    <h1>Wildlife Adoption Agency</h1>
+    </div>
+    <section id="HomeText">
+    <h2>Introduction</h2>
+    <p>We at The Wildlfe Adoption Agency have been running since 1993 by our founder Abbe Pease. In April of 1992 Abbe went on a trip to Seven Wonders Zoo in Tanzania. After initially being excited for the trip to see all the different types of animals she had researched and loved from a safe distnace she soon realised this was not what she had hoped. The animals looked unhealthy and underweight, but she was even more shocked at the tiny cages that the animals were kept in. The animals did'nt seem to move all day apart from when customers would throw food such as chips and ice cream into the cages. Animals that came close enough for her to touch had serious signs of abuse such as limping and cowering when touched. As she thought it couldn't get any worse it did other visiters were dumping their rubbish in the water for the animals polliting it and could endanger the animals and whennshe brought this up to staff they didnt seem to Care. From this visit she felt compelled to do something to help. She wrote to the world animal protection agency who replied back with a letter saying there was nothing they could do unless there was proof. Abbe was determind to save these animals and find proof therefore she went back and took photos of the animals in their tiny cages accentuating how hollow-cheeked they looked and sent them off to the world animal protection agency who then took their own action to save the animals. Abbe realised how rewarding it felt to be the reason the animals were happier and safer therefore she set up what is known today as the wildlife adoption agency which helps to stop any wonderful spieces of animal go extinct but she cant do this alone. She needs your help</p>
+    </section>
+
+    <section id="PicBar">
+      <div class="row">
+        <div class="column">
+          <img src="images/endangered_polar_bears .jpg" alt="endangered_polar_bears" style="width:35%">
+        </div>
+        <div class="colmn">
+          <img src="images/western_lowland_gorilla.jpg" alt="Gorilla" style="width:15%">
+    </div>
+    </div>
+    </section>
+
+    <section id=HomeText>
+    <div class="ImageSet2">
+    <img src="images/elephant.jpg" alt="elephant" class="fact"
+    <h2> 200,000 elephants left in the wild. </h2>
+    </div>
+    <div class="ImageSet2">
+    <img src="images/tiger.jpg" alt="tiger" class="fact"
+    <h2> 3,900 animals left in the wild. </h2>
+    </div>
+    <div class="ImageSet2">
+    <img src="images/gorilla_1.jpg" alt="harambe" class="fact"
+    <h2> 604 gorillas left in the wild.</h2>
+
+
+    </div>
+    </section>
+
+    <section>
+      <script type="text/javascript">
+      $('.js-submit').on('click', function() {
+        preventDefault();
+        $(this).closest('form').submit();
+      });
+      </script>
+      <form action='donate.html'
+        method='post'
+        target='donate'>
+
+        <input type='hidden' name='cmd' value='_s-xclick'>
+        <input type='hidden' name='hosted_button_id' value='TBBJLS6UAC2H2'>
+        <input type='submit' style='display: none;' />
+
+        <button class='button donate js-submit'>
+        <p>Donate Here!</P>
+        <a href="donate.html"></a>
+        </button>
+
+      </form>
+    </section>
+
+    <section id="HomeText">
+      <!-- 3 equal collumns that stack when page is resized -->
+    <div class="row2">
+    <!-- column 1 -->
+    <div class="column2">
+
+    </div>
+    <!-- Column 2 -->
+    <div class="column2">
+
+    </div>
+    <!-- Column 3-->
+    <div class="column2">
+
+    </div>
+    </div>
+    </section>
+<img src="images/bottombar.jpg" alt="bottombar.jpg" style="width:100%">
+  </body>
+   </html>
